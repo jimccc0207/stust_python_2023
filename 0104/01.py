@@ -21,18 +21,19 @@ chicken1 = friedchicken("Original fried chicken", 160, "legs","middle","all seas
 chicken2 = friedchicken("Garlic fried chicken", 180, "legs","large","spring and summer")
 chicken3 = friedchicken("Italian fried chicken", 220, "chest","small","fall")
 chicken4 = friedchicken("Cheese fried chicken", 180, "chest","middle","winter and spring")
-#呼叫各項炸雞品項
+#呼叫chicken1 3個副函式
 chicken1.fooditems()
-chicken2.fooditems()
-chicken3.fooditems()
-chicken4.fooditems()
-#呼叫各項炸雞細節
 chicken1.detail()
-chicken2.detail()
-chicken3.detail()
-chicken4.detail()
-#呼叫各項炸雞供應季節
 chicken1.time()
+#呼叫chicken2 3個副函式
+chicken2.fooditems()
+chicken2.detail()
 chicken2.time()
+#呼叫chicken3 3個副函式
+chicken3.fooditems()
+chicken3.detail()
 chicken3.time()
+#呼叫chicken4 3個副函式
+chicken4.fooditems()
+chicken4.detail()
 chicken4.time()
